@@ -1,0 +1,6 @@
+com/pillar/workshop/core/CustomerService.class
+com/pillar/workshop/rs/RetailRS.class
+com/pillar/workshop/model/CustomerRepository.class
+com/pillar/workshop/core/impl/CustomerServiceBean.class
+com/pillar/workshop/RetailDemoApplication.class
+com/pillar/workshop/model/Customer.class
