@@ -12,10 +12,7 @@ import java.util.Scanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.pillar.workshop.core.CustomerService;
@@ -26,6 +23,7 @@ import com.pillar.workshop.model.Customer;
  *
  */
 @RestController
+@CrossOrigin
 public class RetailRS {
 	@Autowired
 	private CustomerService customerService;
